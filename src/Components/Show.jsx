@@ -1,7 +1,7 @@
 import { useHookstate } from "@hookstate/core"
 import axios from "axios";
 import { useEffect } from "react";
-import { useGlobalState } from "./state"
+import { useGlobalState } from "./state";
 
 export default function Show() {
     const state = useGlobalState();
