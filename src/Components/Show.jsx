@@ -8,7 +8,7 @@ export default function Show() {
     useEffect(() => {
         axios.get("http://127.0.0.1:8000/api/todos").then((res) => {
             state.set(res.data);
-            console.log(res.data)
+            console.log(res.data);
         })
     }, []);
     return (
